@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+    <body>
+        <!-- Cuerpo de formulario -->
+        <!-- El action es para indicar el nombre del archivo que va a acceder a los datos -->
+        <!-- Method es para definir el metodo http que se va a trabajar(GET, POST, etc.) -->
+         <form action="recibe.js" method="">
+             <label for="nombre">Nombre:</label>
+            <!-- El value define el valor y el placeholder muestra un ejemplo de lo que se ingresará en el input -->
+             <!-- name es el valor con el que se podrá acceder al elemento -->
+            <input type="text" id="nombre" value="" placeholder="Nombre" size="50" name="nombre" required>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Correo" name="Correo">
+            <br>
+            <label for="mensaje">Mensaje</label>
+            <!-- id tambien sirve par obtener el elemento del dom -->
+            <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+            <br>
+            <!-- Relacionar el texto con el select o con el elemento debajo -->
+            <label for="pais">Pais</label>
+            <br>
+            <!-- Input para seleccionar entre diferentes opciones -->
+            <select name="pais" id="pais">
+                <option value="mexico">Mexico</option>
+                <option value="espania">España</option>
+                <option value="argentina">Argentina</option>
+            </select>
+            <br>
+            <!-- Inputs de multiples opciones para seleccionar entre solo una-->
+            <input type="radio" name="genero" value="hombre" id="hombre"><label for="hombre">Hombre</label>
+            <input type="radio" name="genero" value="mujer" id="mujer"><label for="mujer">Mujer</label>
+            <br>
+            <!-- Input para hacer un ckeck -->
+            <input type="checkbox" name="terminos" id="terminos"><label for="terminos">Acepto los Terminos y Condiciones</label>
+            <br>
+            <!-- Input para enviar o un boton -->
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
