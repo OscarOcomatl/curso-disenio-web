@@ -1,0 +1,40 @@
+/*  {
+    margin: 0;
+    padding: 0;
+} */
+/*
+    Algunos elementos "inline"
+    a, span, img, b, i, small, cite, code,
+    em, strong, br, script, button, 
+    input, label, select, textarea
+
+    Algunos elementos "block"
+    div, article, section, header,
+    footer, aside, table, p, video,
+    ul, ol, gq, h2, h3, h4, h5, h6
+*/
+
+
+body {
+    background: #f2f2f2;
+    font-family: sans-serif;
+    /* color: #fff; */
+}
+
+h1, p, div {
+    background: #ccc;
+    padding: 10px; /*Margen interior*/
+    width: 500px; /*Ancho*/
+    display: inline-block;
+}
+/* A los elementos de tipo linea no se le puede asignar width, heigth, margin o padding*/
+a {
+    color: #fff;
+    background: #000;
+    
+    /* Para controlar medidas y position de elementos inline se usa display: */
+    display: inline-block; /* Permite modificar las propiedades siendo aun un elemento en linea*/
+    padding: 10px;
+    /* width: 0; */
+    height: 50px;
+}

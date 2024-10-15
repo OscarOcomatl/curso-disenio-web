@@ -1,0 +1,60 @@
+body {
+    background: #f2f2f2;
+    font-family: sans-serif;
+}
+
+div {
+    /* Los divs van a tener margenes de 20px arriba y abajo y 0 de lado y lado */
+    margin: 20px 0;
+}
+
+.btn {
+    background: #2A0365;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    /* Toma los elementos como bloque, siempre agregar display cuado se trabaje con botones porque las propiedades de tamaño, etc, no van a funcionar*/
+    display: inline-block; 
+    padding: 15px 20px;
+    /* Agregar margenes arriba, abajo de cero y a los lados de 10px */
+    margin: 0 10px; 
+    border-radius: 5px;
+}
+
+.btn:hover {
+    opacity: .8;
+}
+
+/* Tamaños */
+.small {
+    font-size: 14px;
+    padding: 10px, 15px;
+}
+.medium {
+    font-size: 16px;
+    padding: 15px, 20px;
+}
+.big {
+    font-size: 18px;
+    padding: 20px, 25px;
+}
+.extra-big {
+    font-size: 20px;
+    padding: 25px, 30px;
+}
+
+/* Colores */
+.color-2 {
+    background: #370587;
+}
+.color-3 {
+    background: #440AA1;
+}
+.color-4 {
+    background: #8A28FA;
+}
+
+/* Efectos */
+.border-radius {
+    border-radius: 20px;
+}

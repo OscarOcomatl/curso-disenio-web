@@ -1,0 +1,32 @@
+/* Unidades relativas
+    px - pixel
+    em - relativa al tamaño de fuente que tenga su elemento padre o el mas cercano. body:20px -> 1em:20px
+    rem - relativa al tamaño de fuente especificado en el body
+    % - porcentaje */
+
+body {
+    font-size: 20px;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.contenedor-padre {
+    font-size: 25px;
+}
+
+.hijo {
+    /* width: 10em; Al colocar rem, se aplicará tamaño relativo directamente del body y la fuente tendrá su tamaño independiente*/
+    width: 10rem;
+    height: 10rem;
+    background: black;
+    color: #fff;
+}
+
+/* div { */
+    /* width: 200px; Para obtener el valor de px en em se divide el tamaño de px del hijo entre el tamaño de px del padre y se obtiene el valor en em: 200/20=10 */
+    /* width: 10em; */
+    /* height: 10em;
+    background-color: black;
+} */

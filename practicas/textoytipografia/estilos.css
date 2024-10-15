@@ -1,0 +1,26 @@
+body {
+    /* Cambiar tipografia, las que tengan espacios deben ir entre comillas */
+    /* font-family: "Times New Roman" Arial, Helvetica,sans-serif; */
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+p {
+    text-align: justify;
+    text-transform: capitalize;
+    /* Cambiar espacio entre letras */
+    letter-spacing: 2px;
+    /* Cambiar altura entre cada linea */
+    line-height: 30px;
+}
+
+h1 {
+    font-family: "Times New Roman", sans-serif, Arial;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    color: #4281ed;
+    text-align: left;
+    text-decoration: underline;
+    /* Transforma el texto, Mayus, Minus, etc */
+    text-transform: uppercase;
+}

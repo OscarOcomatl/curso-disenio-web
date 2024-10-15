@@ -1,0 +1,40 @@
+* {
+    padding: 0; /*Margen interior*/
+    margin: 0;  /*Margen exterior*/
+}
+
+body {
+    /* color: #fff; */
+    font-family: sans-serif;
+    line-height: 20px;
+}
+
+.caja {
+    background: #0353a4;
+    width: 200px;
+    /* height: 200px; Cuando en un contenedor hay texto que se desborda, normalmente solo se va a trabajar con el ancho y el alto será automático */
+    /* agregar margenes al elemento */
+    margin: 20px;
+
+    /* Agregar padding al elemento*/
+    padding: 20px;
+
+    /* Agregar padding arriba, abajo y a los lados*/
+    /* padding: 20px 0px; */
+
+    /* Agregar padding arriba, derecha, abajo, izquierda */
+    padding: 20px 10px 5px 0px;
+
+    /* margin: 20px 0px; El primer valor arriba-abajo, el segundoo izquierda-derecha */
+    /* margin: 20px 0px; */
+
+    /* Agregar margenes independientes */
+    /* margin: 20px 10px 5px 0px; arriba, derecha, abajo, izquierda */
+
+    /* Agregar bordes */
+    border: 10px solid #000;
+}
+
+.caja p {
+    background: #eee5e9;
+}
