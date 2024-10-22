@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+    background: #e8e8e8;
+}
+
+.menu {
+    margin: 50px auto;
+    list-style: none;
+    background: #092327;
+    width: 90%;
+    max-width: 1000px;
+}
+
+.menu li {
+    display: inline-block; /*Solo cuando ocupen el espacio que necesitan y coloca un elemento a lado de otros */
+    text-align: center;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    display: block; /* Para que se pueda poner padding a los elementos a, se tiene que poner inline: block*/
+    padding: 20px;
+}
+
+.menu li a:hover{ 
+    background: #ef8354;
+}

@@ -8,6 +8,40 @@ body {
 }
 
 a {
-    display: inline-block;
+    background: #4357ad;
     margin: 50px;
+    padding: 20px 30px;
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
 }
+
+a:hover{
+    background: #009ddc;
+    padding: 25px 35px;
+}
+
+a:active { /* El estado active es cuando se deja presionado el boton */
+    background: #000;
+}
+
+div {
+    width: 500px;
+}
+
+div p:hover {
+    background: #000;
+    color: #fff;
+}
+div p::first-line{
+    background: #3a3a3a;
+    color: #fff;
+    font-size: 20px;
+}
+div p:nth-child(1) {
+    background: #009ddd;
+}
+
+/* a:visited {
+    background:#ccc ;
+} */
