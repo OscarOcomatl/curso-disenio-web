@@ -14,4 +14,5 @@ Template para videos:
         <source src="../media/videos/video.mp4">
     </video>
 ```
+Template para fonts:
 
