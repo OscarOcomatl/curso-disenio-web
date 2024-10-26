@@ -1,0 +1,24 @@
+
+
+.caja {
+    width: 200px;
+    height: 200px;
+
+    /* valores con transparencia (El alpha o ultimo numero tiene que ser del 0 al 1)*/
+    background: rgb(215, 38, 61);;
+    /* background: rgba(215, 38, 61, .8); */
+
+    /* Hexadecimal */
+    /* background: #fff000; */
+
+    /* valores rgb (Porcentaje) */
+    /* background: rgb(84%, 15%, 24%); */
+
+    /* Valores rgb */
+    /* background: rgb(50, 139, 240); */
+}
+
+.caja:hover {
+    opacity: .8;
+
+}

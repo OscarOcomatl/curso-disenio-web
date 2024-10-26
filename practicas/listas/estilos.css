@@ -1,0 +1,49 @@
+/* ul, ol {
+    padding: 0; Elimina espacio de las viñetas
+    list-style: none; Elimina los estilos, puntos o numeros
+} */
+
+/* 
+    graf
+
+*/
+
+body {
+    font-family: sans-serif;
+}
+
+
+
+ul {
+    /* list-style: square; circle, disk, square */
+    list-style: square;
+    /* list-style-image: url("../../media/images/check.png"); */
+}
+
+
+ol {
+    list-style: lo ;
+}
+
+.menu {
+    background: #4357ad;
+    width: 200px;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li {
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+}
+
+.menu li a {
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background: #4888d6;
+}

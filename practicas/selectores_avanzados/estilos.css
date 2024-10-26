@@ -1,0 +1,26 @@
+/* Selector de hijos */
+/* Solamente los hijos directos del selector que se indica */
+/* div > p {
+    font-size: 30px;
+} */
+
+/* Selecciona los que tengan la propiedad 'type' */
+input[type] {
+
+}
+
+/* Seleccona los que tengan la propiedad con valor */
+input[type="text"] {
+
+}
+
+/* Herencia */
+body {
+    font-size: 20px;
+    color: blue;
+}
+
+article {
+    font-size: 20px;
+    color: black;
+}

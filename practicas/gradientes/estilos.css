@@ -1,0 +1,19 @@
+
+
+.fondo {
+    width: 500px;
+    height: 300px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    border-radius: 10px;
+}
+
+.fondo > .texto {
+    padding: 50%;
+}
+
+.fondo > .texto p{
+    font-size: 40;
+    font-family: sans-serif;
+    color: white;
+}

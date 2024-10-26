@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #f2f2f2;
+    font-family: sans-serif;
+}
+/* Forma comun de posicionar cajas a lado de otras cuando son de tipo bloque simplemente usando la propiedad float*/
+.caja-padre {
+    background: #2e294a;
+    width: 700px;
+    overflow: hidden;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.caja {
+    width: 200px;
+    color: #fff;
+    font-size: 40px;
+    height: 200px;
+    background: #0eb6a8;
+    margin: 20px;
+}
+
+.uno {
+    float: left;
+}
+
+.dos {
+    float: right;
+}
+
+.articulo {
+    width: 800px;
+    background: #ccc;
+}
+
+.articulo img {
+    width: 300px;
+    float: left;
+}
+/* .tres {
+    float: right;
+} */
+
+/* Forma 1 cuando el contenedor padre desaparece y se usa float en los hijos */
+/* Poner overflow: hidden dentro del contenedor padre */
+
+
+
+/* Forma 2 cuando el contenedor padre desaparece y se usa float en los hijos */
+/*
+    La propiedad clear se pone porque el contenedor padre de los elementos desaparece
+    La propiedad clear se tiene que poner siempe despues de las cajas que se hayan flotado
+*/
+/*
+.clear { 
+    clear: both;
+}
+*/
