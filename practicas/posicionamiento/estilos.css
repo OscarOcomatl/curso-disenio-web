@@ -1,0 +1,67 @@
+/*
+    Tipos de Posicionamiento
+        - Normal (static) : Posicionamiento por defecto con el que los navegadores acomodan los elementos
+        - Relativo (relative) : Permite posicionar una caja y despues moverla desde su lugar original
+        - Absoluto (absolute) : Permite posicionar una caja respecto a su contenedor y el resto de elementos ignoran la nueva posicion
+        - Fijo (fixed) : Permite posicionar una caja en donde su posicion respecto a la pantalla del usuario siempre va a ser la misma
+        - Flotante (float) : Permite desplazar las cajas todo lo posible hacia la derecha o izquierda
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #f2f2f2;
+}
+
+.caja {
+    width: 200px;
+    height: 200px;
+    background: #066ba8;
+    margin: 20px;
+    float: right; /* Flotar los elementos de izquierda a derecha */
+    /*float: left;*/ /*Flotar los elementos de derecha a izquierda*/
+}
+
+/* Si se tiene un contenedor padre con position relative y dentro de el un contenedor con position absolute,
+   se puede acomodar al hijo en relación al padre
+
+*/
+/* .caja-padre {
+    margin: 20px;
+    background: #2e294e;
+    width: 500px;
+    height: 500px;
+    position: relative;
+} */
+
+.posicionada {
+    background: #6695e8;
+    /* Cambiar el tipo de posicionamiento */
+
+    /*position: relative;*/  /*Desplazar una caja desde su posicion hacia donde queramos (Relativa desde su posición original) Solo debe escogerese 2, de abajo hacia o arriba e izquierda o derecha*/
+    /* top: -50px ; */
+    /*right: ; */
+    /* left: 200px; */
+    /* bottom: ; */
+
+    /*position: fixed;*/ /* El elemento ya no se mueve de la posicion asignada en pantalla*/
+
+    /* position: absolute; Se desplaza desde su posicion y los demas elementos toman la posicion que ocupaba ese elemento */
+    /* position: absolute;
+    left: 220px;
+    top: 0%; */
+    /* bottom: 0%;
+    right: 0%; */
+    /* right: 0%;
+    bottom: 0%; */
+}
+
+
+
+
+
+
+

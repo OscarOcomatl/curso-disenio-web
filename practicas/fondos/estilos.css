@@ -1,0 +1,33 @@
+/* agregar las propiedades a toda la pagina */
+/*body {
+    /* background: black; */
+    /* background: url('../../media/images/background.jpg');
+    background-repeat: no-repeat; */
+    /* Abarcar el ancho completo del contenedor padre: cover, contain abarca ancho y alto */
+    /* background-size: cover;
+    background-attachment: fixed; */
+    /* background-position: center center; */
+/*}*/
+
+body {
+    /* background: url('../../media/images/background.jpg') no-repeat fixed center center;
+    background-size: cover; */
+
+    
+    /* Para repetir el fondo */
+    background: #637DDA;
+    background: url('../../media/images/patron.png');
+    background-size: 200px;
+    background-repeat: repeat;
+    background-attachment: scroll;
+}
+
+.fondo {
+    /* width: 600px; ancho */
+    /* height: 600px; alto */
+    /* background: url('../../media/images/background.jpg') #000; */
+    /* background-repeat: no-repeat; */
+    /* Adminte valores para ancho y alto: 50% 100% */
+    /* background-size: 50%; */
+
+}

@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.texto {
+    /* Primer valor: Horizontal de izquierda a derecha */
+    /* Segundo valor:Vertical de arriba a abajo */
+    /* Segundo valor: grosor de la sombra, mientras mayor sea el valor es mayor el grosor */
+    /* text-shadow:  2px 0px 20px #000; */
+    color: #fff;
+    text-shadow: 2px 0px 10px blue;
+}
+
+.caja {
+    margin: 50%;
+    width: 200px;
+    height: 200px;
+    background: #f79256;
+    box-shadow: 0 5px 5px rgba(0,0,0,.5);
+}

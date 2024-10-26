@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    background: #f2f2f2;
+}
+
+/* div, a{
+    background: gray;
+} */
+/* Valores para inline : inline, block, none, inline-block, flex */
+a {
+    /* display: block; No muestra los bloques de los elementos */
+    /* visibility: hidden;  */
+    background: #246eb9;
+    color: #fff;padding: 20px;
+    display: inline-block;
+}
+
+.caja {
+    color: #fff;
+    background: #4fb560;
+    margin: 20px 0;
+    width: 200px;
+    height: 200px;
+    /*overflow: hidden; Oculta contenido que sobresalga de su contenedor padre*/
+    overflow: auto; /*Permite hacer scrool dentro del contenedor si su contenido es mas grande que el propio contenedor*/
+}
+
+.contenedor {
+    width: 600px;
+    background: #ccc;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.izquierda {
+    float: left;
+}
+
+.derecha {
+    float: right;
+}
+
+.contenedor-dos .caja {
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.azul {
+    background: #009ddc;
+    z-index: 2; /* Poner elementos uno frente al otro cuando estan dentro de un contenedor*/
+}
+
+.gris {
+    background: #32021f; 
+    left: 50px;
+    bottom: 80px;
+    z-index: 1;/* Poner elementos uno frente al otro cuando estan dentro de un contenedor*/
+}
+
+/* 
+    display: inline, block, none, inline-block, flex -- Estos son los mas comunes
+
+    Otros pero no tan comunes -- table, inline-table, table-row-group, table-header-group,
+                                 table-footer-group, table-row, table-column-group, table-column, 
+                                 table-cell, table-caption 
+*/

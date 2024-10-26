@@ -1,0 +1,27 @@
+/* Se puede acceder con su selector */
+a {
+    font-size: 20px;
+    /* Decoracion para el texto o la etiqueta */
+    text-decoration: none;
+}
+
+/* pseudo clases: hover -> pasar mouse encima*/
+a:hover {
+    background: #f9a03f;
+}
+
+/* ponerle el estilo que tengan los enlaces que no han sido visitados */
+a:link {
+    text-decoration: none;
+    /* color: red; */
+}
+
+/* Enlaces que ya fueron visitados */
+a:visited {
+    color: indianred;
+}
+
+/* Cuando se de un click */
+a:active {
+    text-decoration: underline;
+}
