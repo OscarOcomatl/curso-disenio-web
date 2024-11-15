@@ -16,3 +16,6 @@ Template para videos:
 ```
 Template para fonts:
 
+Imagen para proyecto portafolio:
+mini-proyectos/img/
+
