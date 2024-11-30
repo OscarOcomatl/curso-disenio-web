@@ -11,7 +11,8 @@ body{
 }
 
 .contenedor {
-    width: 1000px;
+    width: 90%;
+    max-width: 1000px;
     margin: 20px auto;
     overflow: hidden; /* Debe estar colocado en el contenedor padre porque si no los hijos no pueden estar alineados*/
 }
@@ -47,7 +48,7 @@ header nav ul li a:hover{
 }
 
 .main {
-    width: 700px;
+    width: 70%;
     background: #fff;
     float: left;
 }
@@ -75,8 +76,8 @@ header nav ul li a:hover{
 }
 
 aside {
-    width: 300px;
-    height: 683px;
+    width: 30%;
+    /* height: 683px; */
     background: #161f26;
     padding: 20px;
     color: #fff;
@@ -90,6 +91,7 @@ aside .widget {
 aside .widget .titulo {
     color: #ff8000;
     border-bottom: 1px solid #ff8000;
+    margin-bottom: 10px;
 }
 
 aside .widget ul {
@@ -97,7 +99,7 @@ aside .widget ul {
 }
 
 aside .widget ul li {
-    border-bottom: 1px solid rgba(255,255,255,0.21);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
     padding: 10px 0;
 }
 
@@ -110,8 +112,12 @@ aside .widget ul li a:hover{
     color: #8f8f8f;
 }
 
+aside .widget p {
+    line-height: 20px;
+}
+
 footer {
-    width: 1000px;
+    width: 70%;
     /* overflow: hidden; */
     clear: both;
     background: #000;
@@ -120,3 +126,27 @@ footer {
     text-align: center;
 
 }
+
+ @media screen and (min-width:800px){
+    .main {
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+ }
+
+ /* Se pueden tener diferentes mediaquery*/
+ @media screen and (max-width:500px){
+
+ }
+
+ /* Tambien se usa el min-width */
+ @media screen and (min-width:500px){
+
+ }
