@@ -1,0 +1,32 @@
+//Acceder a los elementos
+
+$titleColor: #f9a03f
+
+body
+    background: #1b3d82
+    font-family: sans-serif, Arial
+
+.container
+    display: flex
+    justify-content: center
+    align-content: center
+    margin:  200px 0
+    .articulo
+        background: #e9f1f7
+        width: 500px
+        padding: 20px
+        .titulo
+            color: $titleColor
+            .autor
+                color: #4d5061
+            p
+                a
+                    color: $titleColor
+            div
+                text-align: center
+                a
+                    text-decoration: none
+                    font-size: 25px
+                    color: $titleColor
+                    &:hover //Acceder a las pseudoclases
+                        text-decoration: underline

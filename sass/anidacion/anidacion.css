@@ -1,0 +1,29 @@
+body {
+  background: #1b3d82;
+  font-family: sans-serif, Arial; }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 200px 0; }
+  .container .articulo {
+    background: #e9f1f7;
+    width: 500px;
+    padding: 20px; }
+    .container .articulo .titulo {
+      color: #f9a03f; }
+      .container .articulo .titulo .autor {
+        color: #4d5061; }
+      .container .articulo .titulo p a {
+        color: #f9a03f; }
+      .container .articulo .titulo div {
+        text-align: center; }
+        .container .articulo .titulo div a {
+          text-decoration: none;
+          font-size: 25px;
+          color: #f9a03f; }
+          .container .articulo .titulo div a:hover {
+            text-decoration: underline; }
+
+/*# sourceMappingURL=anidacion.css.map */
